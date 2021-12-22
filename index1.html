@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="Container">
+        <h1>Application</h1>
+
+    <form method="post">
+        Name: <input type="text" id="Name" placeholder="type here" required><br><br>
+        Password: <input type="password" id="Password" required><br><br>
+        Email: <input type="email" id="Email" required><br><br>
+        Gender: 
+        Male <input type="radio" name="Gender" required>
+        Female <input type="radio" name="Gender" required><br><br>
+        DOB: <input type="date" id="DOB" required><br><br>
+        Age: <input type="number" id="Age"><br><br>
+        Car Brands: 
+        <select id="Car Brands">
+            <option>Select Below</option>
+            <option value="BMW">BMW</option>
+            <option value="Mercedez">Mercedez</option>
+            <option value="Audi">Audi</option>
+            <option value="Tata">Tata</option>
+            <br>
+            <!-- <input type="Submit"> -->
+        </select><br><br>
+        <button type="Submit" required>Submit</button>
+    </div>
+        
+</body>
+</html>

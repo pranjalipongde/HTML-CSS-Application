@@ -1,0 +1,23 @@
+.Container {
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-family: courier;
+    font-size: 15px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+    border: 10px red solid;
+    text-decoration:dotted;
+    border-radius: 40px;
+}
+/* body {
+    font-size: 30px;
+} */
+button {
+    color: black;
+    background-color: green;
+}
